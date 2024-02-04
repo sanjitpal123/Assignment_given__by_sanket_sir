@@ -24,6 +24,8 @@ const pr1=makeTea();
 pr1.then((result)=>{
     console.log(result);
     return prepareBreakfast();
+}).catch((error)=>{
+    throw error;
 })
 .then((result)=>{
     console.log(result);
