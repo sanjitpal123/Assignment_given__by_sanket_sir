@@ -30,7 +30,7 @@ function makeTea() {
 
 
 
-function prepareFullBreakFast() {
+function PrepareFullBreakFast() {
    async function execute()
    {
     try{
@@ -45,7 +45,7 @@ function prepareFullBreakFast() {
    execute();
 }
 
-prepareFullBreakFast();
+PrepareFullBreakFast();
 
 
 
